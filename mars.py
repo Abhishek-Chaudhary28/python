@@ -22,11 +22,11 @@ time1 = travel_time(mars_distance,mission_1_speed)
 cost_1 = mission_cost(mars_distance,fuel_price,fuel_rate)
 
 time2 = travel_time(mars_distance,mission_2_speed)
-cost_2 = mission_cost(mars_distance,fuel_price,fuel_rate)
+
 
 time3 = travel_time(mars_distance,mission_3_speed)
-cost_3 = mission_cost(mars_distance,fuel_price,fuel_rate)
+
 
 print(f"PathFinder travel time is  {time1} hours ({format_time(time1)}) and the total fuel cost is {cost_1} ")
-print(f"Perseverance travel time is  {time2} hours  ({format_time(time2)}) and the total fuel cost is {cost_2} ")
-print(f"Starship travel time is  {time3} hours  ({format_time(time3)}) and the total fuel cost is {cost_3} ")
+print(f"Perseverance travel time is  {time2} hours  ({format_time(time2)}) and the total fuel cost is {cost_1} ")
+print(f"Starship travel time is  {time3} hours  ({format_time(time3)}) and the total fuel cost is {cost_1} ")

@@ -1,5 +1,5 @@
 def greeting(name, age):
-    print("Hello "+name+ ", welcome to the program! you are "+age+"old")
+    print("Hello "+name+ ", welcome to the program! you are "+age+" old")
     print(f"Hello {name}, welcome to the program! you are {age} old")
 
 greeting("Abhi", "45")
