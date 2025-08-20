@@ -1,5 +1,3 @@
-Hello.
-Hello world.
-three.
-gour.
-five.
+great 
+man 
+vice versa
