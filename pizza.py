@@ -22,7 +22,7 @@ class Pizza:
 
 size = input("Enter Large, Medium, Small : ").strip()
 crust_type = input("Enter Thin, Medium, Thick : ").strip()
-intput_topping = input("Enter Pepo, onion, panner Leave empty for none: ").strip()
+intput_topping = input("Enter Peporine, onion, olive Leave empty for none: ").strip()
 topping = [t.strip() for t in intput_topping.split(",")] if intput_topping else []
 
 custom = Pizza(size, crust_type, topping)
