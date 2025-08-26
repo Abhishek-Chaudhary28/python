@@ -10,7 +10,7 @@ for num in numbers :
 print(new_list)
 
 # give me a list with num for each num in numbers if num is even  comprehension
-new_list = [num for num in numbers if num % 2 == 1 ]
+new_list = [num for num in numbers if num % 2 == 0 ]
 print(new_list)
 
 # Lambda
